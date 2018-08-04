@@ -7,10 +7,12 @@
 
 .BuildControl button {
     display: block;
+    border-radius: 100%;
     font: inherit;
     padding: 5px;
     margin: 0 5px;
-    width: 80px;
+    height: 35px;
+    width: 35px;
     border: 1px solid #AA6817;
     cursor: pointer;
     outline: none;
@@ -27,6 +29,11 @@
     background-color: #AC9980;
     color: #ccc;
     cursor: not-allowed;
+}
+
+.Quantity{
+    font-weight: bold;
+    margin: auto 10px;
 }
 
 .Label {
